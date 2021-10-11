@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "jsx": "react",
+        "importHelpers": true,
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strictNullChecks": false,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "moduleResolution": "node",
+        "lib": ["es5", "es6", "es7", "esnext", "dom", "dom.iterable", "scripthost"],
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "build", "mock"]
+}
