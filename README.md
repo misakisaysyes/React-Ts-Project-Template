@@ -141,3 +141,15 @@ npm i -D stylelint stylelint-prettier
 ```
 npm i -D husky lint-staged @commitlint/config-conventional @commitlint/cli
 ```
+
+## TODO
+
+-   打包优化、分析相关的 Plugin 配置
+-   eslint stylelint prettier 配置优化
+-   格式化目录配置
+
+## 参考
+
+[ref1](https://github.com/forthealllight/blog/issues/45)
+[ref2](https://github.com/conventional-changelog/commitlint)
+[ref3](https://juejin.cn/post/6914138611789070349#heading-8)
